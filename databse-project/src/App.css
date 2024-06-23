@@ -1,0 +1,28 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    /*border: 1px red solid;*/
+}
+
+h1, h2 {
+    font-family: 'Aldrich', 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
